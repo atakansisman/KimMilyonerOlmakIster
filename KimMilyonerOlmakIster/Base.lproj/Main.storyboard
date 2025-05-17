@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Start View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="StartViewController" id="BYZ-38-t0r" customClass="StartViewController" customModule="KimMilyonerOlmakIster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jY7-h0-IKx">
+                                <rect key="frame" x="46.666666666666657" y="518" width="300" height="34.333333333333371"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="g7H-CC-2uW"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Başla"/>
+                                <connections>
+                                    <action selector="startButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kpi-Zv-oc3"/>
+                                    <segue destination="gxD-O6-q0y" kind="show" identifier="startToQuestion" id="KWZ-Ec-Js6"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arkaplan" translatesAutoresizingMaskIntoConstraints="NO" id="2tj-zo-hFn">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="1800"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1800" id="r6K-8g-min"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2tj-zo-hFn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="7ky-fh-FuB"/>
+                            <constraint firstItem="2tj-zo-hFn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="E11-bn-iOC"/>
+                            <constraint firstItem="2tj-zo-hFn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Lob-G3-IOb"/>
+                            <constraint firstAttribute="bottom" secondItem="2tj-zo-hFn" secondAttribute="bottom" id="RxB-fe-8Dk"/>
+                            <constraint firstItem="2tj-zo-hFn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="TH3-Rw-KYN"/>
+                            <constraint firstItem="2tj-zo-hFn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fgY-jI-y2W"/>
+                            <constraint firstAttribute="bottom" secondItem="2tj-zo-hFn" secondAttribute="bottom" id="gaC-3z-scS"/>
+                            <constraint firstItem="jY7-h0-IKx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="400" id="nHP-mb-w8m"/>
+                            <constraint firstItem="jY7-h0-IKx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s4f-ct-ONF"/>
+                            <constraint firstItem="2tj-zo-hFn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="wup-os-2pU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-628.24427480916029" y="-276.05633802816902"/>
+        </scene>
+        <!--Question View Controller-->
+        <scene sceneID="4Zh-Cc-Uyn">
+            <objects>
+                <viewController id="gxD-O6-q0y" customClass="QuestionViewController" customModule="KimMilyonerOlmakIster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sl7-1w-Zbd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="nNi-yj-awm">
+                                <rect key="frame" x="190.66666666666666" y="444.99999999999994" width="12" height="189.33333333333331"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFi-3m-7Gd">
+                                        <rect key="frame" x="0.0" y="0.0" width="12" height="20.333333333333332"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="A">
+                                            <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="choiceButtonTapped:" destination="gxD-O6-q0y" eventType="touchUpInside" id="crl-VF-DtZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9WL-U5-TOG">
+                                        <rect key="frame" x="0.0" y="56.333333333333321" width="12" height="20.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="B">
+                                            <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="choiceButtonTapped:" destination="gxD-O6-q0y" eventType="touchUpInside" id="qCb-TY-SDe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2a-5t-98F">
+                                        <rect key="frame" x="0.0" y="112.66666666666663" width="12" height="20.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="C">
+                                            <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="choiceButtonTapped:" destination="gxD-O6-q0y" eventType="touchUpInside" id="NCD-hr-3kr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ge-S4-l5h">
+                                        <rect key="frame" x="0.0" y="169" width="12" height="20.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="D">
+                                            <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="choiceButtonTapped:" destination="gxD-O6-q0y" eventType="touchUpInside" id="iRX-mO-Fcl"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ödül: 0 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2f0-3X-raX">
+                                <rect key="frame" x="276" y="118" width="70" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="YPY-Yu-qtK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Soru" translatesAutoresizingMaskIntoConstraints="NO" id="fic-KY-kRn">
+                                <rect key="frame" x="0.0" y="230" width="393" height="142"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="142" id="j4C-Em-jKA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soru burada görünecek" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69V-fX-OXK">
+                                <rect key="frame" x="84" y="259" width="262" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="A27-HF-usw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zkf-wN-Kya"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nNi-yj-awm" firstAttribute="top" secondItem="fic-KY-kRn" secondAttribute="bottom" constant="73.000000000000057" id="FnU-Tz-Q6f"/>
+                            <constraint firstItem="fic-KY-kRn" firstAttribute="centerX" secondItem="nNi-yj-awm" secondAttribute="centerX" id="G3n-sT-fjK"/>
+                            <constraint firstItem="2f0-3X-raX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zkf-wN-Kya" secondAttribute="leading" symbolic="YES" id="PYQ-du-sOI"/>
+                            <constraint firstItem="69V-fX-OXK" firstAttribute="leading" secondItem="zkf-wN-Kya" secondAttribute="leading" constant="84" id="TBw-9d-oxT"/>
+                            <constraint firstItem="69V-fX-OXK" firstAttribute="trailing" secondItem="2f0-3X-raX" secondAttribute="trailing" id="TEw-CR-AnL"/>
+                            <constraint firstItem="fic-KY-kRn" firstAttribute="leading" secondItem="Sl7-1w-Zbd" secondAttribute="leading" id="a12-3i-0VN"/>
+                            <constraint firstItem="zkf-wN-Kya" firstAttribute="trailing" secondItem="69V-fX-OXK" secondAttribute="trailing" constant="47" id="acb-Nj-hkS"/>
+                            <constraint firstItem="fic-KY-kRn" firstAttribute="top" secondItem="Sl7-1w-Zbd" secondAttribute="top" constant="230" id="gzZ-jD-26S"/>
+                            <constraint firstItem="fic-KY-kRn" firstAttribute="centerX" secondItem="Sl7-1w-Zbd" secondAttribute="centerX" id="jlf-EH-vs8"/>
+                            <constraint firstItem="fic-KY-kRn" firstAttribute="centerY" secondItem="69V-fX-OXK" secondAttribute="centerY" id="mX1-Au-bCU"/>
+                            <constraint firstItem="2f0-3X-raX" firstAttribute="top" secondItem="zkf-wN-Kya" secondAttribute="top" constant="59" id="tqL-gG-XJY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="c9O-lX-Iwb"/>
+                    <connections>
+                        <outlet property="prizeLabel" destination="2f0-3X-raX" id="AT5-LA-mGJ"/>
+                        <outlet property="questionLabel" destination="69V-fX-OXK" id="1Ha-bp-tt8"/>
+                        <outletCollection property="choiceButtons" destination="rFi-3m-7Gd" collectionClass="NSMutableArray" id="I2b-BW-yhl"/>
+                        <outletCollection property="choiceButtons" destination="9WL-U5-TOG" collectionClass="NSMutableArray" id="hrV-lL-k3Q"/>
+                        <outletCollection property="choiceButtons" destination="Y2a-5t-98F" collectionClass="NSMutableArray" id="W70-JC-bFV"/>
+                        <outletCollection property="choiceButtons" destination="1ge-S4-l5h" collectionClass="NSMutableArray" id="NYW-jM-UBl"/>
+                        <segue destination="3jL-6c-mer" kind="show" identifier="showResult" id="u4g-gm-8Ap"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sqp-9F-xcM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="200.76335877862596" y="-276.05633802816902"/>
+        </scene>
+        <!--Result View Controller-->
+        <scene sceneID="fnA-Pj-9OK">
+            <objects>
+                <viewController id="3jL-6c-mer" customClass="ResultViewController" customModule="KimMilyonerOlmakIster" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="05x-GP-K3h">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qze-ee-aDJ">
+                                <rect key="frame" x="100" y="292" width="183" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Sonuç burada görünecek
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSR-RQ-HdD">
+                                <rect key="frame" x="132" y="374" width="130" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Yeniden Başla"/>
+                                <connections>
+                                    <action selector="restartGameTapped:" destination="3jL-6c-mer" eventType="touchUpInside" id="EFy-bH-cvL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Sh3-de-vkW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <string key="identifier">showResult
+</string>
+                        </accessibility>
+                    </view>
+                    <navigationItem key="navigationItem" id="93W-vQ-jef"/>
+                    <connections>
+                        <outlet property="resultLabel" destination="Qze-ee-aDJ" id="ZNl-2S-0H9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uKj-Uh-Y1y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="942.74809160305335" y="-262.67605633802816"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Arkaplan" width="262.66665649414062" height="382"/>
+        <image name="Soru" width="480.33334350585938" height="201"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

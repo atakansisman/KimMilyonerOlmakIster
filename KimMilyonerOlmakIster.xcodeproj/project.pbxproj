@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3D6ADC2DC17A6300A84785 /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = AC3D6ADB2DC1761D00A84785 /* questions.json */; };
+		AC3D6ADD2DC17A6A00A84785 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D6AD92DC175EA00A84785 /* ResultViewController.swift */; };
+		AC3D6ADE2DC17A7100A84785 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D6AD82DC175D200A84785 /* QuestionViewController.swift */; };
+		AC3D6ADF2DC17A7700A84785 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D6AD72DC175BF00A84785 /* StartViewController.swift */; };
+		AC3D6AE02DC17A7D00A84785 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D6ADA2DC175FE00A84785 /* Question.swift */; };
+		AC3D6AE12DC17A8300A84785 /*  QuestionLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D6AD62DC174C500A84785 /*  QuestionLoader.swift */; };
+		AC60A83B2DCA9859004D34FB /* question_bank.json in Resources */ = {isa = PBXBuildFile; fileRef = AC60A83A2DCA984A004D34FB /* question_bank.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC3D6AB52DC172AD00A84785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3D6A962DC172A900A84785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3D6A9D2DC172A900A84785;
+			remoteInfo = KimMilyonerOlmakIster;
+		};
+		AC3D6ABF2DC172AD00A84785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC3D6A962DC172A900A84785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3D6A9D2DC172A900A84785;
+			remoteInfo = KimMilyonerOlmakIster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC3D6A9E2DC172A900A84785 /* KimMilyonerOlmakIster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KimMilyonerOlmakIster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3D6AB42DC172AD00A84785 /* KimMilyonerOlmakIsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KimMilyonerOlmakIsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3D6ABE2DC172AD00A84785 /* KimMilyonerOlmakIsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KimMilyonerOlmakIsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3D6AD62DC174C500A84785 /*  QuestionLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " QuestionLoader.swift"; sourceTree = "<group>"; };
+		AC3D6AD72DC175BF00A84785 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		AC3D6AD82DC175D200A84785 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		AC3D6AD92DC175EA00A84785 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		AC3D6ADA2DC175FE00A84785 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		AC3D6ADB2DC1761D00A84785 /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		AC60A83A2DCA984A004D34FB /* question_bank.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = question_bank.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AC3D6AC62DC172AD00A84785 /* Exceptions for "KimMilyonerOlmakIster" folder in "KimMilyonerOlmakIster" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AC3D6A9D2DC172A900A84785 /* KimMilyonerOlmakIster */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AC3D6AA02DC172A900A84785 /* KimMilyonerOlmakIster */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AC3D6AC62DC172AD00A84785 /* Exceptions for "KimMilyonerOlmakIster" folder in "KimMilyonerOlmakIster" target */,
+			);
+			path = KimMilyonerOlmakIster;
+			sourceTree = "<group>";
+		};
+		AC3D6AB72DC172AD00A84785 /* KimMilyonerOlmakIsterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KimMilyonerOlmakIsterTests;
+			sourceTree = "<group>";
+		};
+		AC3D6AC12DC172AD00A84785 /* KimMilyonerOlmakIsterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KimMilyonerOlmakIsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3D6A9B2DC172A900A84785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3D6AB12DC172AD00A84785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3D6ABB2DC172AD00A84785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3D6A952DC172A900A84785 = {
+			isa = PBXGroup;
+			children = (
+				AC3D6AD42DC1741B00A84785 /* Resources */,
+				AC3D6AD32DC1741000A84785 /* Controllers */,
+				AC3D6AD22DC1740400A84785 /* Models */,
+				AC3D6AA02DC172A900A84785 /* KimMilyonerOlmakIster */,
+				AC3D6AB72DC172AD00A84785 /* KimMilyonerOlmakIsterTests */,
+				AC3D6AC12DC172AD00A84785 /* KimMilyonerOlmakIsterUITests */,
+				AC3D6A9F2DC172A900A84785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3D6A9F2DC172A900A84785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D6A9E2DC172A900A84785 /* KimMilyonerOlmakIster.app */,
+				AC3D6AB42DC172AD00A84785 /* KimMilyonerOlmakIsterTests.xctest */,
+				AC3D6ABE2DC172AD00A84785 /* KimMilyonerOlmakIsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC3D6AD22DC1740400A84785 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D6ADA2DC175FE00A84785 /* Question.swift */,
+				AC3D6AD62DC174C500A84785 /*  QuestionLoader.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC3D6AD32DC1741000A84785 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D6AD92DC175EA00A84785 /* ResultViewController.swift */,
+				AC3D6AD82DC175D200A84785 /* QuestionViewController.swift */,
+				AC3D6AD72DC175BF00A84785 /* StartViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AC3D6AD42DC1741B00A84785 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC60A83A2DCA984A004D34FB /* question_bank.json */,
+				AC3D6ADB2DC1761D00A84785 /* questions.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3D6A9D2DC172A900A84785 /* KimMilyonerOlmakIster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3D6AC72DC172AD00A84785 /* Build configuration list for PBXNativeTarget "KimMilyonerOlmakIster" */;
+			buildPhases = (
+				AC3D6A9A2DC172A900A84785 /* Sources */,
+				AC3D6A9B2DC172A900A84785 /* Frameworks */,
+				AC3D6A9C2DC172A900A84785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AC3D6AA02DC172A900A84785 /* KimMilyonerOlmakIster */,
+			);
+			name = KimMilyonerOlmakIster;
+			packageProductDependencies = (
+			);
+			productName = KimMilyonerOlmakIster;
+			productReference = AC3D6A9E2DC172A900A84785 /* KimMilyonerOlmakIster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC3D6AB32DC172AD00A84785 /* KimMilyonerOlmakIsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3D6ACC2DC172AD00A84785 /* Build configuration list for PBXNativeTarget "KimMilyonerOlmakIsterTests" */;
+			buildPhases = (
+				AC3D6AB02DC172AD00A84785 /* Sources */,
+				AC3D6AB12DC172AD00A84785 /* Frameworks */,
+				AC3D6AB22DC172AD00A84785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3D6AB62DC172AD00A84785 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC3D6AB72DC172AD00A84785 /* KimMilyonerOlmakIsterTests */,
+			);
+			name = KimMilyonerOlmakIsterTests;
+			packageProductDependencies = (
+			);
+			productName = KimMilyonerOlmakIsterTests;
+			productReference = AC3D6AB42DC172AD00A84785 /* KimMilyonerOlmakIsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC3D6ABD2DC172AD00A84785 /* KimMilyonerOlmakIsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3D6ACF2DC172AD00A84785 /* Build configuration list for PBXNativeTarget "KimMilyonerOlmakIsterUITests" */;
+			buildPhases = (
+				AC3D6ABA2DC172AD00A84785 /* Sources */,
+				AC3D6ABB2DC172AD00A84785 /* Frameworks */,
+				AC3D6ABC2DC172AD00A84785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC3D6AC02DC172AD00A84785 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AC3D6AC12DC172AD00A84785 /* KimMilyonerOlmakIsterUITests */,
+			);
+			name = KimMilyonerOlmakIsterUITests;
+			packageProductDependencies = (
+			);
+			productName = KimMilyonerOlmakIsterUITests;
+			productReference = AC3D6ABE2DC172AD00A84785 /* KimMilyonerOlmakIsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3D6A962DC172A900A84785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					AC3D6A9D2DC172A900A84785 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					AC3D6AB32DC172AD00A84785 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = AC3D6A9D2DC172A900A84785;
+					};
+					AC3D6ABD2DC172AD00A84785 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = AC3D6A9D2DC172A900A84785;
+					};
+				};
+			};
+			buildConfigurationList = AC3D6A992DC172A900A84785 /* Build configuration list for PBXProject "KimMilyonerOlmakIster" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC3D6A952DC172A900A84785;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AC3D6A9F2DC172A900A84785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3D6A9D2DC172A900A84785 /* KimMilyonerOlmakIster */,
+				AC3D6AB32DC172AD00A84785 /* KimMilyonerOlmakIsterTests */,
+				AC3D6ABD2DC172AD00A84785 /* KimMilyonerOlmakIsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3D6A9C2DC172A900A84785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC60A83B2DCA9859004D34FB /* question_bank.json in Resources */,
+				AC3D6ADC2DC17A6300A84785 /* questions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3D6AB22DC172AD00A84785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3D6ABC2DC172AD00A84785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC3D6A9A2DC172A900A84785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3D6ADE2DC17A7100A84785 /* QuestionViewController.swift in Sources */,
+				AC3D6ADD2DC17A6A00A84785 /* ResultViewController.swift in Sources */,
+				AC3D6AE02DC17A7D00A84785 /* Question.swift in Sources */,
+				AC3D6ADF2DC17A7700A84785 /* StartViewController.swift in Sources */,
+				AC3D6AE12DC17A8300A84785 /*  QuestionLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3D6AB02DC172AD00A84785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC3D6ABA2DC172AD00A84785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC3D6AB62DC172AD00A84785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3D6A9D2DC172A900A84785 /* KimMilyonerOlmakIster */;
+			targetProxy = AC3D6AB52DC172AD00A84785 /* PBXContainerItemProxy */;
+		};
+		AC3D6AC02DC172AD00A84785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC3D6A9D2DC172A900A84785 /* KimMilyonerOlmakIster */;
+			targetProxy = AC3D6ABF2DC172AD00A84785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC3D6AC82DC172AD00A84785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z45G77ZYJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KimMilyonerOlmakIster/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Atakan.KimMilyonerOlmakIster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC3D6AC92DC172AD00A84785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z45G77ZYJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KimMilyonerOlmakIster/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Atakan.KimMilyonerOlmakIster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC3D6ACA2DC172AD00A84785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z45G77ZYJF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC3D6ACB2DC172AD00A84785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z45G77ZYJF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC3D6ACD2DC172AD00A84785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z45G77ZYJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Atakan.KimMilyonerOlmakIsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KimMilyonerOlmakIster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KimMilyonerOlmakIster";
+			};
+			name = Debug;
+		};
+		AC3D6ACE2DC172AD00A84785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z45G77ZYJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Atakan.KimMilyonerOlmakIsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KimMilyonerOlmakIster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KimMilyonerOlmakIster";
+			};
+			name = Release;
+		};
+		AC3D6AD02DC172AD00A84785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z45G77ZYJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Atakan.KimMilyonerOlmakIsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KimMilyonerOlmakIster;
+			};
+			name = Debug;
+		};
+		AC3D6AD12DC172AD00A84785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z45G77ZYJF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Atakan.KimMilyonerOlmakIsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KimMilyonerOlmakIster;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC3D6A992DC172A900A84785 /* Build configuration list for PBXProject "KimMilyonerOlmakIster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3D6ACA2DC172AD00A84785 /* Debug */,
+				AC3D6ACB2DC172AD00A84785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3D6AC72DC172AD00A84785 /* Build configuration list for PBXNativeTarget "KimMilyonerOlmakIster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3D6AC82DC172AD00A84785 /* Debug */,
+				AC3D6AC92DC172AD00A84785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3D6ACC2DC172AD00A84785 /* Build configuration list for PBXNativeTarget "KimMilyonerOlmakIsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3D6ACD2DC172AD00A84785 /* Debug */,
+				AC3D6ACE2DC172AD00A84785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3D6ACF2DC172AD00A84785 /* Build configuration list for PBXNativeTarget "KimMilyonerOlmakIsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3D6AD02DC172AD00A84785 /* Debug */,
+				AC3D6AD12DC172AD00A84785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC3D6A962DC172A900A84785 /* Project object */;
+}
