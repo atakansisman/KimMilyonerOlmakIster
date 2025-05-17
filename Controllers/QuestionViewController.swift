@@ -68,4 +68,15 @@ class QuestionViewController: UIViewController {
             dest.finalScore = score
         }
     }
+    @IBAction func withdrawButtonTapped(_ sender: UIButton) {
+        if currentQuestionIndex > 0 {
+            // en son doğru tamamlanan sorunun ödülünü al
+            score = prizeList[currentQuestionIndex - 1]
+        } else {
+            // henüz hiç soru yoksa 0
+            score = 0
+        }
+        performSegue(withIdentifier: "showResult", sender: nil)
+    }
+
 }
