@@ -10,12 +10,14 @@ import UIKit
 class ResultViewController: UIViewController {
     
     @IBOutlet weak var resultLabel: UILabel!
-    
+    @IBOutlet weak var correctanswer: UILabel!
     var finalScore: Int = 0
-
+    var Answer: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         resultLabel.text = "Tebrikler! \(finalScore) TL kazandınız."
+        correctanswer.text = "Doğru cevap: \(Answer)"
     }
 
     @IBAction func restartGameTapped(_ sender: UIButton) {

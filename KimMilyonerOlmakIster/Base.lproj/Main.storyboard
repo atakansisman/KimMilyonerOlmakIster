@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jY7-h0-IKx">
-                                <rect key="frame" x="46" y="409" width="300" height="34.333333333333371"/>
+                                <rect key="frame" x="46" y="489" width="300" height="34.333333333333371"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -32,6 +32,10 @@
                                     <segue destination="gxD-O6-q0y" kind="showDetail" identifier="startToQuestion" id="KWZ-Ec-Js6"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="c63-EG-r6n">
+                                <rect key="frame" x="71" y="171" width="251" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -44,21 +48,19 @@
         <!--Question View Controller-->
         <scene sceneID="4Zh-Cc-Uyn">
             <objects>
-                <viewController id="gxD-O6-q0y" customClass="QuestionViewController" customModule="KimMilyonerOlmakIster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="gxD-O6-q0y" customClass="QuestionViewController" customModule="KimMilyonerOlmakIster" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Sl7-1w-Zbd">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Arkaplan" translatesAutoresizingMaskIntoConstraints="NO" id="vO8-yG-Eb8">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ödül: 0 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2f0-3X-raX">
-                                <rect key="frame" x="276" y="118" width="70" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="YPY-Yu-qtK"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ödül: 0 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2f0-3X-raX">
+                                <rect key="frame" x="146" y="114" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -69,7 +71,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8A-6C-tMK">
-                                <rect key="frame" x="17" y="419" width="361" height="35"/>
+                                <rect key="frame" x="16" y="380" width="361" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button" backgroundImage="Şıklar"/>
@@ -78,7 +80,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpE-eQ-F1J">
-                                <rect key="frame" x="17" y="462" width="361" height="35"/>
+                                <rect key="frame" x="17" y="423" width="361" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button" backgroundImage="Şıklar"/>
@@ -87,7 +89,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPz-9P-WyP">
-                                <rect key="frame" x="17" y="505" width="361" height="35"/>
+                                <rect key="frame" x="17" y="466" width="361" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button" backgroundImage="Şıklar"/>
@@ -95,24 +97,6 @@
                                     <action selector="choiceButtonTapped:" destination="gxD-O6-q0y" eventType="touchUpInside" id="0us-ml-cp0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6G-Ka-Vc5">
-                                <rect key="frame" x="17" y="548" width="361" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" backgroundImage="Şıklar"/>
-                                <connections>
-                                    <action selector="choiceButtonTapped:" destination="gxD-O6-q0y" eventType="touchUpInside" id="v8x-8M-VwI"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Soru burada görünecek" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69V-fX-OXK">
-                                <rect key="frame" x="65" y="259" width="262" height="84"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="84" id="A27-HF-usw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9A-00-YqC">
                                 <rect key="frame" x="310" y="714" width="62" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -122,25 +106,43 @@
                                     <action selector="withdrawButtonTapped:" destination="gxD-O6-q0y" eventType="touchUpInside" id="1sD-tE-drU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6G-Ka-Vc5">
+                                <rect key="frame" x="17" y="509" width="361" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" backgroundImage="Şıklar"/>
+                                <connections>
+                                    <action selector="choiceButtonTapped:" destination="gxD-O6-q0y" eventType="touchUpInside" id="v8x-8M-VwI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soru burada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRz-sM-HP5">
+                                <rect key="frame" x="34" y="247" width="303" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00.20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OiG-2U-UMO">
+                                <rect key="frame" x="154" y="196" width="86" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zkf-wN-Kya"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="2f0-3X-raX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zkf-wN-Kya" secondAttribute="leading" symbolic="YES" id="PYQ-du-sOI"/>
-                            <constraint firstItem="69V-fX-OXK" firstAttribute="leading" secondItem="zkf-wN-Kya" secondAttribute="leading" constant="84" id="TBw-9d-oxT"/>
-                            <constraint firstItem="69V-fX-OXK" firstAttribute="trailing" secondItem="2f0-3X-raX" secondAttribute="trailing" id="TEw-CR-AnL"/>
                             <constraint firstItem="fic-KY-kRn" firstAttribute="leading" secondItem="Sl7-1w-Zbd" secondAttribute="leading" id="a12-3i-0VN"/>
-                            <constraint firstItem="zkf-wN-Kya" firstAttribute="trailing" secondItem="69V-fX-OXK" secondAttribute="trailing" constant="47" id="acb-Nj-hkS"/>
                             <constraint firstItem="fic-KY-kRn" firstAttribute="top" secondItem="Sl7-1w-Zbd" secondAttribute="top" constant="230" id="gzZ-jD-26S"/>
                             <constraint firstItem="fic-KY-kRn" firstAttribute="centerX" secondItem="Sl7-1w-Zbd" secondAttribute="centerX" id="jlf-EH-vs8"/>
-                            <constraint firstItem="fic-KY-kRn" firstAttribute="centerY" secondItem="69V-fX-OXK" secondAttribute="centerY" id="mX1-Au-bCU"/>
-                            <constraint firstItem="2f0-3X-raX" firstAttribute="top" secondItem="zkf-wN-Kya" secondAttribute="top" constant="59" id="tqL-gG-XJY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="c9O-lX-Iwb"/>
                     <connections>
                         <outlet property="prizeLabel" destination="2f0-3X-raX" id="AT5-LA-mGJ"/>
-                        <outlet property="questionLabel" destination="69V-fX-OXK" id="1Ha-bp-tt8"/>
+                        <outlet property="questionLabel" destination="pRz-sM-HP5" id="o4h-Pa-3jM"/>
+                        <outlet property="timerLabel" destination="OiG-2U-UMO" id="9We-64-7uY"/>
                         <outletCollection property="choiceButtons" destination="R8A-6C-tMK" collectionClass="NSMutableArray" id="Z5X-4S-6HC"/>
                         <outletCollection property="choiceButtons" destination="RpE-eQ-F1J" collectionClass="NSMutableArray" id="7RW-Cv-39p"/>
                         <outletCollection property="choiceButtons" destination="WPz-9P-WyP" collectionClass="NSMutableArray" id="JRH-ff-YwQ"/>
@@ -155,9 +157,9 @@
         <!--Result View Controller-->
         <scene sceneID="fnA-Pj-9OK">
             <objects>
-                <viewController id="3jL-6c-mer" customClass="ResultViewController" customModule="KimMilyonerOlmakIster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="3jL-6c-mer" customClass="ResultViewController" customModule="KimMilyonerOlmakIster" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="05x-GP-K3h">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Soru" translatesAutoresizingMaskIntoConstraints="NO" id="nQg-Nb-NK1">
@@ -165,7 +167,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Arkaplan" translatesAutoresizingMaskIntoConstraints="NO" id="2uQ-TU-bCN">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qze-ee-aDJ">
@@ -178,14 +180,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSR-RQ-HdD">
-                                <rect key="frame" x="100" y="374" width="205" height="35"/>
+                                <rect key="frame" x="94" y="414" width="205" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Yeniden Başla" backgroundImage="Şıklar"/>
+                                <state key="normal" title="Ana Menüye Dön" backgroundImage="Şıklar"/>
                                 <connections>
                                     <action selector="restartGameTapped:" destination="3jL-6c-mer" eventType="touchUpInside" id="EFy-bH-cvL"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Doğru cevap burada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRV-C4-CDC">
+                                <rect key="frame" x="16" y="364" width="361" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Sh3-de-vkW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -196,6 +205,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="93W-vQ-jef"/>
                     <connections>
+                        <outlet property="correctanswer" destination="hRV-C4-CDC" id="mJc-Qq-Mqk"/>
                         <outlet property="resultLabel" destination="Qze-ee-aDJ" id="ZNl-2S-0H9"/>
                     </connections>
                 </viewController>
@@ -209,6 +219,7 @@
         <image name="Başla" width="683.33331298828125" height="121.33333587646484"/>
         <image name="Soru" width="480.33334350585938" height="201"/>
         <image name="Şıklar" width="683.33331298828125" height="121.33333587646484"/>
+        <image name="logo" width="575.33331298828125" height="576.66668701171875"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

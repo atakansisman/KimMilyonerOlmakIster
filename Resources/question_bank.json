@@ -1,19 +1,19 @@
 [
   {
     "pool": 1,
-    "questionText": "'Kurutmalı olanların fiyatları da kapasitesine göre değişiyor' diyen biri muhtemelen hangi üründen bahsediyordur?",
+    "questionText": "'Kurutmalı olanların fiyatları kapasitesine göre değişiyor' diyen biri muhtemelen hangi üründen bahsediyordur?",
     "options": ["Waffle makinesi", "Kahve makinesi", "Süt köpürtme makinesi", "Çamaşır makinesi"],
     "correctIndex": 3
   },
   {
     "pool": 1,
     "questionText": "Türkiye'nin en yüksek dağı hangisidir?",
-    "options": ["Ağrı Dağı", "Uludağ", "Erciyes", "Kaçkar Dağı"],
+    "options": ["Ağrı Dağı", "Uludağ", "Erciyes Dağı", "Kaçkar Dağı"],
     "correctIndex": 0
   },
   {
     "pool": 1,
-    "questionText": "Hangi gezegen Güneş Sistemi'ndeki en büyük gezegendir?",
+    "questionText": "Güneş Sistemi'ndeki en büyük gezegen hangisidir?",
     "options": ["Mars", "Jüpiter", "Venüs", "Satürn"],
     "correctIndex": 1
   },
@@ -25,7 +25,7 @@
   },
   {
     "pool": 1,
-    "questionText": "Kafe ve restoranlarda menülere çevrim içi olarak erişebilmek için hangisinin akıllı telefon kameralarına okutulması gereklidir?",
+    "questionText": "Kafe ve restoranlarda menülere çevrim içi erişmek için hangisinin telefon kameralarına okutulması gereklidir?",
     "options": ["Üçgenkod", "Karekod", "Küpkod", "Yamukkod"],
     "correctIndex": 1
   },
@@ -43,14 +43,14 @@
   },
   {
     "pool": 1,
-    "questionText": "Hangisinde kalan biri muhtemelen beş yıldızlı bir otelde kalıyordur?",
+    "questionText": "Hangisinde kalan biri muhtemelen lüks bir otelde kalıyordur?",
     "options": ["Öğrence evinde", "Ay'da", "Kral dairesinde", "Pansiyonda"],
     "correctIndex": 2
   },
   {
     "pool": 1,
-    "questionText": "Çok zayıf ve kuru anlamına gelen hangisidir?",
-    "options": ["Şişko", "Gürbüz", "Tombul", "Sıska"],
+    "questionText":"Büyük dükkan anlamına gelen kelimenin doğru yazılışı aşağıdakilerden hangisidir?",
+    "options":["Maza", "Maaza", "Mağza", "Mağaza"] ,
     "correctIndex": 3
   },
   {
@@ -80,7 +80,7 @@
   },
   {
     "pool": 2,
-    "questionText": "Hangisi 'geldiği yere veya ters yöne doğru anlamına gelir?'",
+    "questionText": "Hangisi 'geldiği yere veya ters yöne doğru' anlamına gelir?",
     "options": ["Arkasın arka", "Önsün ön", "İlerisin ileri", "Gerisin geri"],
     "correctIndex": 3
   },
@@ -104,8 +104,8 @@
   },
   {
     "pool": 2,
-    "questionText": "Büyük dükkan anlamına gelen kelimenin doğru yazılışı nasıldır?",
-    "options": ["Mazza", "Maaza", "Mağza", "Mağaza"],
+    "questionText": "Çok zayıf ve kuru anlamına gelen hangisidir?",
+    "options": ["Şişko", "Gürbüz", "Tombul", "Sıska"],
     "correctIndex": 3
   },
   {
@@ -171,7 +171,7 @@
   },
   {
     "pool": 3,
-    "questionText": "İki dünya savaşında da kaybeden ittifakta yer alan hangisidir?",
+    "questionText": "Hangisi iki dünya savaşında da kaybeden ittifakta yer alır?",
     "options": ["Japonya", "Fransa", "Almanya", "İtalya"],
     "correctIndex": 2
   },
@@ -275,7 +275,7 @@
   },
   {
     "pool": 5,
-    "questionText": "Hangisi, Iron Man adlı çizgi roman kahramanını beyaz perdede canlandırmıştır?",
+    "questionText": "Iron Man adlı çizgi roman kahramanını beyaz perdede canlandıran kimdir?",
     "options": ["Jake Gyllenhall", "Robert Downey Jr.", "Benedict Cumberbatch", "Chris Hemsworth"],
     "correctIndex": 1
   },
@@ -409,7 +409,7 @@
   },
   {
     "pool": 7,
-    "questionText": "Hangisi ördekgillerden, tüyleri kiremit renginde bir kuş türünün adıdır?",
+    "questionText": "Hangisi ördekgillerden olan ve tüyleri kiremit renginde olan bir kuş türünün adıdır?",
     "options": ["Angut", "Budala", "Sersem", "Ebleh"],
     "correctIndex": 0
   },
@@ -592,7 +592,7 @@
   },
   {
     "pool": 10,
-    "questionText": "1887'de bir grup erkeğin şaka amaçlı kendisini belediye başkanı adayı olarak göstermesinin ardından oyların üçte ikisini alan aday hangi ülkenin seçilen ve görev yapan ilk kadın belediye başkanı olmuştur?",
+    "questionText": "1887'de bir grup erkeğin şaka amaçlı kendisini belediye başkanı adayı olarak göstermesinin ardından oyların üçte ikisini alan aday hangi ülkenin seçilen ilk kadın belediye başkanı olmuştur?",
     "options": ["ABD", "Çin", "Japonya", "Fransa"],
     "correctIndex": 0
   },
